@@ -14,18 +14,32 @@ ul {
   margin: auto ;
  
 }
+li { 
+	margin: auto 50px;
+ }
 
 .btn{
 	padding: 14px 40px;
-	border-radius: 25px;
-	margin-left: 150px;	
-}
-li { 
-	margin: auto 50px;
-	border-radius: 15px;
- }
-h3 { 
-	text-align: center;
+	margin-bottom: 50px
+	margin-top: 50px;
+	border-radius: 20px;
 	font-family: 'Kaushan Script', cursive;
-	font-size: 30px;	
+	font-size: 30px;
  }
+.overlay{
+	visibility: hidden;
+	background-color: black;
+}
+.content{
+	visibility: hidden;
+}
+.overlay.active { 
+	visibility: visible;
+
+ }
+ .content.active {
+ 	visibility: visible;
+ }
+
+
+	
