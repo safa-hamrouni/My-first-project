@@ -26,20 +26,27 @@ li {
 	font-family: 'Kaushan Script', cursive;
 	font-size: 30px;
  }
-.overlay{
-	visibility: hidden;
+#popup.active{
+	visibility: visible;
 	background-color: black;
+	width:100%;
+	height: 100%
+	z-index: 1;
+	
 }
-.content{
-	visibility: hidden;
+.content.active{
+	visibility: visible;
+	width: 75%;
+	height: 75%;
+	z-index: 2;
 }
-.overlay.active { 
+/*.overlay.active { 
 	visibility: visible;
 
  }
  .content.active {
  	visibility: visible;
  }
-
+*/
 
 	
