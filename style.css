@@ -9,7 +9,7 @@ header {
 ul {
 	list-style-type: none;
 }
-.recipe-list > ul  {
+.recipe > ul  {
   display: flex;
   margin: auto ;
  
@@ -20,33 +20,42 @@ li {
 
 .btn{
 	padding: 14px 40px;
-	margin-bottom: 50px
-	margin-top: 50px;
 	border-radius: 20px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 25%;
 	font-family: 'Kaushan Script', cursive;
 	font-size: 30px;
+	border:2px solid #808000;
  }
+#popup{
+	visibility: hidden;
+}
+.content{
+	visibility: hidden;
+}
 #popup.active{
 	visibility: visible;
 	background-color: black;
-	width:100%;
-	height: 100%
+	width:60%;
+	height: 80%;
 	z-index: 1;
-	
+	position: absolute;
+	top: 75%;
+	left: 50px;
+	opacity: 1;
+
 }
-.content.active{
+/*.content.active{
 	visibility: visible;
 	width: 75%;
 	height: 75%;
 	z-index: 2;
+}*/
+.close {
+	opacity: 0.5;
+	color: black;
 }
-/*.overlay.active { 
-	visibility: visible;
 
- }
- .content.active {
- 	visibility: visible;
- }
-*/
 
 	
