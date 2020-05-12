@@ -1,5 +1,5 @@
 
-$('body').css("background-image","url('https://images.unsplash.com/photo-1509624776920-0fac24a9dfda?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80')")
+$('body').css("background-image","url('https://images.unsplash.com/photo-1550895030-823330fc2551?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80')")
 
 $('header').css("background-image","url('https://images.unsplash.com/photo-1517707711963-adf9078bdf01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80')")
 
